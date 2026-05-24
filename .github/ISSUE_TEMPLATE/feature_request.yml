@@ -1,0 +1,35 @@
+name: Feature request
+description: Suggest an MVP or post-MVP improvement.
+title: "[Feature]: "
+labels: ["feature", "beta"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: Describe the user scenario, not just the implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: current_workaround
+    attributes:
+      label: Current workaround
+      description: What do you do today instead?
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: What would make Odyssey better here?
+    validations:
+      required: true
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Impact on 7-day dogfooding
+      options:
+        - Blocks testing
+        - Strongly affects daily use
+        - Nice to have
+        - Post-MVP idea
+    validations:
+      required: true

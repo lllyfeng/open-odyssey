@@ -14,9 +14,8 @@ Found a bug, a memory glitch, or have a feature idea? Open an issue here.
 
 ## Install
 
-See [BRAT install guide](https://github.com/lllyfeng/odyssey/blob/main/docs/BRAT-install.md) (beta).
+Coming soon.
 
 ## Links
 
-- Main repository: [lllyfeng/odyssey](https://github.com/lllyfeng/odyssey) (private during beta)
 - Website: meetodyssey.me (coming soon)
